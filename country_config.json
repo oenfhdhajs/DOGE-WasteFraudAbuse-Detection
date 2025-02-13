@@ -1,0 +1,44 @@
+{
+  "US": {
+    "data_path": "us_government_spending_data.csv",
+    "sql_placeholders": {
+      "DB_NAME": "us_government_spending_db",
+      "TABLE_NAME": "us_government_spending_data"
+    },
+    "python_placeholders": {
+      "DATA_PATH": "us_government_spending_data.csv",
+      "DB_NAME": "us_government_spending_db"
+    },
+    "html_placeholders": {
+      "COUNTRY_NAME": "United States"
+    }
+  },
+  "GB": {
+    "data_path": "uk_government_spending_data.csv",
+    "sql_placeholders": {
+      "DB_NAME": "uk_government_spending_db",
+      "TABLE_NAME": "uk_government_spending_data"
+    },
+    "python_placeholders": {
+      "DATA_PATH": "uk_government_spending_data.csv",
+      "DB_NAME": "uk_government_spending_db"
+    },
+    "html_placeholders": {
+      "COUNTRY_NAME": "United Kingdom"
+    }
+  },
+  "DE": {
+    "data_path": "de_government_spending_data.csv",
+    "sql_placeholders": {
+      "DB_NAME": "de_government_spending_db",
+      "TABLE_NAME": "de_government_spending_data"
+    },
+    "python_placeholders": {
+      "DATA_PATH": "de_government_spending_data.csv",
+      "DB_NAME": "de_government_spending_db"
+    },
+    "html_placeholders": {
+      "COUNTRY_NAME": "Germany"
+    }
+  }
+}
